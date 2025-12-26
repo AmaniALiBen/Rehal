@@ -75,3 +75,15 @@ p,ul{
   height: 7vh;
   transition: transform 0.3s;
 }
+@media (max-width: 768px) {
+  .content{
+     grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+     "a a "
+     "v v"
+     "m m"
+     "w w" 
+     "c c"
+     ;
+  }
+}
